@@ -1,0 +1,108 @@
+/* src/App.css */
+
+/* Set a background color for the entire application */
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Light grey background */
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the form section */
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Consistent width for inputs */
+}
+
+/* General button styles */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Grey background for disabled buttons */
+  cursor: not-allowed;
+}
+
+/* Style for the "Add Book" button */
+.add-button {
+  background-color: #ff4d4d; /* Red background */
+}
+
+.add-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Style for the table */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+}
+table button{
+  color: red;
+}
+
+table th, table td {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #007bff; /* Blue background for table header */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light grey for even rows */
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff; /* White for odd rows */
+}
+
+/* Style for the pagination buttons */
+.pagination {
+  margin: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* Blue background */
+  color: black;
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Grey background for disabled buttons */
+  cursor: not-allowed;
+}
